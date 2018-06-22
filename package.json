@@ -1,0 +1,26 @@
+{
+  "name": "jobpostsearchapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrishCR97/JobPostSearchApp.git"
+  },
+  "author": "Kishon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KrishCR97/JobPostSearchApp/issues"
+  },
+  "homepage": "https://github.com/KrishCR97/JobPostSearchApp#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.6",
+    "nodemon": "^1.17.5",
+    "q": "^1.5.1"
+  }
+}

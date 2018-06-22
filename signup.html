@@ -1,0 +1,13 @@
+<div>
+        <h1>Sign Up</h1>
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+        <input type="text" placeholder="UserName" ng-model="userName" required><br/><br/>
+        <input type="password" placeholder="Enter Password" ng-model="signUpForm.password" required><br/><br/>
+        <input type="text" placeholder="FirstName" required ng-model="signUpForm.firstName"><br/><br/>
+        <input type="text" placeholder="LastName" required ng-model="signUpForm.lastName"><br/><br/>
+        <input type="email" placeholder="Email" required ng-model="signUpForm.email"><br/><br/>
+        <input type="tel" placeholder="Phone No" required ng-model="signUpForm.phNum"><br/><br/>
+        <input type="text" placeholder="Location" required ng-model="signUpForm.location"><br/><br/>
+        <button ng-click="createNewUser()" >SignUp</button>
+        </div>
