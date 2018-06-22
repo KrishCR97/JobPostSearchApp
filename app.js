@@ -67,7 +67,6 @@ app.controller('signUpController', function ($scope, $http,$location) {
         }
         $http.post("http://localhost:4000/saveUser", JSON.stringify(newUserDetails)).then((data) => {
             if (data.data.savedUser) {
-                //alert('saved');
                 $location.path('/login');
             }
         });
